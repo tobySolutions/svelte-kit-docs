@@ -8,6 +8,7 @@ Official adapters exist for a variety of platforms — these are documented on t
 
 - [`@sveltejs/adapter-cloudflare`](adapter-cloudflare) for Cloudflare Pages
 - [`@sveltejs/adapter-cloudflare-workers`](adapter-cloudflare-workers) for Cloudflare Workers
+- [`@fleek-platform/svelte-adapter`](fleek-svelte-adapter) for Fleek
 - [`@sveltejs/adapter-netlify`](adapter-netlify) for Netlify
 - [`@sveltejs/adapter-node`](adapter-node) for Node servers
 - [`@sveltejs/adapter-static`](adapter-static) for static site generation (SSG)
