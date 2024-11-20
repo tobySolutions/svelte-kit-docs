@@ -3,7 +3,7 @@ title: Fleek
 ---
 To deploy to Fleek, use [`@fleek-platform/svelte-adapter`](https://github.com/fleek-platform/fleek-svelte-adapter).
 
-Adding it to your project allows you to specify Fleek-specific options.
+Adding it to your project allows you to denote Fleek-specific options.
 
 
 ## Usage
@@ -36,7 +36,7 @@ export default {
 When running `npm run build`, the adapter performs a series of steps to prepare your SvelteKit app for deployment on Fleek. Here's a breakdown of the process:
 
 1. **Production Build of SvelteKit App**:
-   - The build process optimizes your app for production by compiling Svelte components into efficient JavaScript.
+   - The build process optimizes your app for production by compiling Svelte components into JavaScript.
    - It includes minification, tree-shaking, and bundling of JavaScript, CSS, and other assets to ensure a smaller and faster app.
 
 2. **Static Assets**:
@@ -45,11 +45,11 @@ When running `npm run build`, the adapter performs a series of steps to prepare 
 
 3. **Server-Side Functions**:
    - The server-side logic of your app, such as API endpoints or server-rendered pages, is bundled and stored in `.fleek/dist`.
-   - The output is optimized for Fleek's serverless environment to handle requests efficiently.
+   - The output is optimized for Fleek's serverless environment to handle requests lightning-fast.
 
 
 ### **Deployment**
-Once the build process is complete, the deployment to Fleek Functions involves the following steps:
+Once the build process is complete, deploy to Fleek Functions with the following steps:
 
 1. **Command Explanation**:
    ```bash
