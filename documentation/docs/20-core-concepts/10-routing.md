@@ -169,7 +169,7 @@ To create a layout that applies to every page, make a file called `src/routes/+l
 ...but we can add whatever markup, styles and behaviour we want. The only requirement is that the component includes a `@render` tag for the page content. For example, let's add a nav bar:
 
 ```svelte
-<!---- file: src/routes/+layout.svelte --->
+<!--- file: src/routes/+layout.svelte --->
 <script>
 	let { children } = $props();
 </script>
@@ -330,7 +330,7 @@ By exporting `POST`/`PUT`/`PATCH`/`DELETE`/`OPTIONS`/`HEAD` handlers, `+server.j
 <input type="number" bind:value={b}> =
 {total}
 
-<button on:click={add}>Calculate</button>
+<button onclick={add}>Calculate</button>
 ```
 
 ```js

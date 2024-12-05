@@ -1,5 +1,47 @@
 # @sveltejs/kit
 
+## 2.9.0
+### Minor Changes
+
+
+- feat: Vite 6 support ([#12270](https://github.com/sveltejs/kit/pull/12270))
+
+
+### Patch Changes
+
+
+- fix: transform link[rel='shortcut icon'] and link[rel='apple-touch-icon'] to be absolute to avoid console error when navigating ([#13077](https://github.com/sveltejs/kit/pull/13077))
+
+## 2.8.5
+### Patch Changes
+
+
+- fix: don't hydrate when falling back to error page ([#13056](https://github.com/sveltejs/kit/pull/13056))
+
+## 2.8.4
+### Patch Changes
+
+
+- fix: update inline css url generation for FOUC prevention in dev ([#13007](https://github.com/sveltejs/kit/pull/13007))
+
+## 2.8.3
+### Patch Changes
+
+
+- fix: ensure error messages are escaped ([#13050](https://github.com/sveltejs/kit/pull/13050))
+
+
+- fix: escape values included in dev 404 page ([#13039](https://github.com/sveltejs/kit/pull/13039))
+
+## 2.8.2
+### Patch Changes
+
+
+- fix: prevent duplicate fetch request when using Request with load function's fetch ([#13023](https://github.com/sveltejs/kit/pull/13023))
+
+
+- fix: do not override default cookie decoder to allow users to override the `cookie` library version ([#13037](https://github.com/sveltejs/kit/pull/13037))
+
 ## 2.8.1
 ### Patch Changes
 
